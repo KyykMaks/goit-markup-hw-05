@@ -558,6 +558,9 @@ p {
 .footer-form {
   
 }
+.lable-form{
+  
+}
 .subscribe {
   color: var(--white);
   font-family: Roboto;
@@ -565,7 +568,7 @@ p {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-bottom: 16px;
+  margin-bottom: 16px;
 }
 .footer-form-input {
   color: var(--white);
@@ -679,4 +682,13 @@ border: 1px solid #4D5AE5;
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+.modal-form{
+
+}
+.input-modal {
+}
+.icon-modal-form {
+}
+.button-send {
 }
