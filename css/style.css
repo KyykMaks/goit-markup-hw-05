@@ -791,6 +791,14 @@ textarea {
   border: none;
   fill: #ffffff;
 }
+.checked-form:checked{
+  background-color:var(--ocean);
+  border: none;
+  fill:#f4f4fd;
+}
+.privacy-policy{
+  color:var(--iris)
+}
 .span-form{
   width: 16px;
   height: 16px;
