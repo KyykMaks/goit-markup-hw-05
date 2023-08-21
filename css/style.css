@@ -791,7 +791,7 @@ textarea {
   border: none;
   fill: #ffffff;
 }
-.checked-form:checked{
+.checked-form:checked + .span-form{
   background-color:var(--ocean);
   border: none;
   fill:#f4f4fd;
@@ -800,7 +800,6 @@ textarea {
   color:var(--iris)
 }
 .span-form{
-  width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
