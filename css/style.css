@@ -776,9 +776,10 @@ textarea {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
-  display: block;
+  display: inline-block;
   font-family: 'Roboto', sans-serif;
   background-color: var(--iris);
+  margin-top: 24px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
@@ -810,7 +811,7 @@ textarea {
   justify-content: center;
   fill: transparent;
 }
-input [type='checkbox'] :checked + .span-form {
+input:checked + .user-privacy>.span-form {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
