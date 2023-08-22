@@ -737,7 +737,7 @@ p {
 .input-modal:focus + .icon-modal-form{
   fill: var(--iris);
 }
-textarea {
+.textarea {
   margin-bottom: 16px;
 }
 .textarea-form {
