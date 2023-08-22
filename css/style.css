@@ -593,7 +593,6 @@ p {
 
 .button-form {
   display: inline-flex;
-  padding: 8px 24px;
   justify-content: center;
   align-items: center;
   gap: 16px;
@@ -626,7 +625,6 @@ p {
 }
 .form-icon {
   fill: var(--white);
-  margin-left: 16px;
 }
 
 /* modal */
